@@ -19,4 +19,4 @@ The purpose of this project is to create a data pipeline using Databricks. It in
 
  4. Create a workflow to automate running the data ingestion, processing, and analysis steps using a Databricks job.
 
-![Screenshot 2023-11-11 at 4 12 32 PM](https://github.com/nogibjj/KatherineT.DE.Mini-Project_11/assets/143833511/5e16cc84-06f2-4559-ba93-134daf721f0d)
+![Screenshot 2023-11-11 at 4 14 03 PM](https://github.com/nogibjj/KatherineT.DE.Mini-Project_11/assets/143833511/b52c03c7-689a-4392-a3dc-982d518132ee)
