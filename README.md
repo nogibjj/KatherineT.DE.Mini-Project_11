@@ -2,7 +2,7 @@
 ## Purpose
 The purpose of this project is to create a data pipeline using Databricks. It includes one data source and one data sink. The dataset used is a subset of the Million Song Dataset, a collection of features and metadata for contemporary music tracks.
 
-## Steps
+## Steps 
 1. Create a Databricks workspace on Azure
 2. Create a cluster on Databricks
 3. Create three notebooks that achieve the functionalities of extract, transform, and load (ETL) workflow.
