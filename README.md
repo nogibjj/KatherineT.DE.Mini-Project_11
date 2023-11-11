@@ -1,29 +1,22 @@
-# Data Engineering Mini Project 2
+# Data Engineering Mini Project 11
 ## Purpose
-The purpose of this project is to use the previous template and pandas to analyze a dataset, obtain its summary statistics and visualization. The dataset used here is the "cereal" dataset, which contains statistics of different cereal brands, including calories, ratings, weight, etc.
+The purpose of this project is to create a data pipeline using Databricks. It includes one data source and one data sink. The dataset used is a subset of the Million Song Dataset, a collection of features and metadata for contemporary music tracks.
 
 ## Steps
-1. Add python to requirement.txt
-2. In main.py, define two functions. One returns the summary statistics and the other visualizes the data.
-3. Add test cases in test_main.py.  
+1. Create a Databricks workspace on Azure
+2. Create a cluster on Databricks
+3. Create three notebooks that achieve the functionalities of extract, transform, and load (ETL) workflow.
+   ![Screenshot 2023-11-11 at 4 12 32 PM](https://github.com/nogibjj/KatherineT.DE.Mini-Project_11/assets/143833511/8ee82802-ee99-4c66-9a34-1a4c2b21fc7a)
+   
+   1) Load the raw data into a table to make it available for further processing
+   ![Screenshot 2023-11-11 at 4 07 32 PM](https://github.com/nogibjj/KatherineT.DE.Mini-Project_11/assets/143833511/8e15ad37-8cb3-4afe-baff-f9b7cac1f7f3)
 
-## Check format and test
-Use make test command to test the code
-<img width="954" alt="Screen Shot 2023-09-10 at 11 12 38 PM" src="https://github.com/nogibjj/KatherineT.W2/assets/143833511/31148657-b039-411b-b216-1c593fb48600">
+   2) Transform the data to prepare it for analysis
+   ![Screenshot 2023-11-11 at 4 09 25 PM](https://github.com/nogibjj/KatherineT.DE.Mini-Project_11/assets/143833511/01d9594e-d27f-4f89-b45f-d4ff1928d8cf)
 
-Use make lint and format command to check the format
+   3) Adding queries to analyze the songs data. Find the artist that realeases the most songs each year
+   ![Screenshot 2023-11-11 at 4 11 00 PM](https://github.com/nogibjj/KatherineT.DE.Mini-Project_11/assets/143833511/365d5ce6-d047-4fef-8028-17f96c6961bd)
 
+ 4. Create a workflow to automate running the data ingestion, processing, and analysis steps using a Databricks job.
 
-
-<img width="582" alt="Screen Shot 2023-09-10 at 11 14 20 PM" src="https://github.com/nogibjj/KatherineT.W2/assets/143833511/045bb7e5-37da-4b97-9c20-2ad734453bc0">
-
-
-## Result
-### The following results can also be found in report.md
-This is the summary statistics of all numeric variables in the cereal dataset. There are 13 variables and 8 rows. 
-<img width="573" alt="Screen Shot 2023-09-10 at 4 54 05 PM" src="https://github.com/nogibjj/KatherineT.W2/assets/143833511/5e2ed863-c0c6-41e1-b8ff-45431ae33650">
-
-This is the histogram of the calories variable. 
-
-![Histogram](https://github.com/nogibjj/KatherineT.W2/assets/143833511/f400a3a4-8163-487b-9755-2447c46e0800)
- 
+![Screenshot 2023-11-11 at 4 12 32 PM](https://github.com/nogibjj/KatherineT.DE.Mini-Project_11/assets/143833511/5e16cc84-06f2-4559-ba93-134daf721f0d)
